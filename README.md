@@ -1,3 +1,33 @@
+# 🌍 Migration Forecasting — Predictive Analysis of Irregular Migration Flows to Europe
+
+A PySpark-based Big Data pipeline that predicts irregular migration flows to Europe using open data sources and Machine Learning techniques.
+
+## 📌 About
+
+This project integrates three heterogeneous data sources to build a complete forecasting system:
+
+- **Frontex** — Monthly border detection statistics per migration route
+- **GDELT** — Global geopolitical events as push factors (~49GB)
+- **ERA5** — Monthly meteorological data (temperature, wind, precipitation)
+
+Four models are trained and evaluated per route using a **rolling forecast** methodology:
+
+- Baseline (previous month value)
+- SARIMAX (statistical time series with exogenous variables)
+- XGBoost (gradient boosting)
+- LightGBM (efficient gradient boosting)
+
+## 🗂️ File Structure
+
+├── Predictive_analysis.ipynb              # Main analysis notebook (Google Colab)
+├── app.py                                 # Interactive Streamlit dashboard
+├── dashboard_table.csv                    # Model results per route
+├── drivers_importance.csv                 # Feature importance per route
+├── forecast_monthly.csv                   # Actual vs Predicted detections
+├── Monthly_detections_of_IBC_13_20260203.xlsx  # Frontex data
+├── era5_monthly_wind_temp_2023_2025.nc    # ERA5 wind & temperature
+└── era5_monthly_precip_snow_2023_2025.nc  # ERA5 precipitation & snow
+
 ## 🛠️ Setup Instructions
 
 ### Notebook (Google Colab)
