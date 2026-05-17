@@ -1,5 +1,6 @@
 🌍 Migration Forecasting — Predictive Analysis of Irregular Migration Flows to Europe
 A PySpark-based Big Data pipeline that predicts irregular migration flows to Europe using open data sources and Machine Learning techniques.
+
 📌 About
 This project integrates three heterogeneous data sources to build a complete forecasting system:
 
