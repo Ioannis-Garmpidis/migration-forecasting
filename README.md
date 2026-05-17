@@ -16,6 +16,7 @@ Four models are trained and evaluated per route using a **rolling forecast** met
 - SARIMAX (statistical time series with exogenous variables)
 - XGBoost (gradient boosting)
 - LightGBM (efficient gradient boosting)
+  
 
 ## 🗂️ File Structure
 
@@ -35,6 +36,7 @@ Four models are trained and evaluated per route using a **rolling forecast** met
 
 └── era5_monthly_precip_snow_2023_2025.nc  # ERA5 precipitation & snow
 
+
 ## 🛠️ Setup Instructions
 
 ### Notebook (Google Colab)
@@ -45,6 +47,7 @@ Four models are trained and evaluated per route using a **rolling forecast** met
 4. Run all cells sequentially
 
 > ⚠️ Full execution takes several hours due to GDELT data volume (~49GB). Intermediate results are saved automatically as Parquet files in Google Drive.
+
 
 ### Dashboard (Local)
 
