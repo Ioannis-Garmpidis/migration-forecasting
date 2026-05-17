@@ -20,12 +20,19 @@ Four models are trained and evaluated per route using a **rolling forecast** met
 ## 🗂️ File Structure
 
 ├── Predictive_analysis.ipynb              # Main analysis notebook (Google Colab)
+
 ├── app.py                                 # Interactive Streamlit dashboard
+
 ├── dashboard_table.csv                    # Model results per route
+
 ├── drivers_importance.csv                 # Feature importance per route
+
 ├── forecast_monthly.csv                   # Actual vs Predicted detections
+
 ├── Monthly_detections_of_IBC_13_20260203.xlsx  # Frontex data
+
 ├── era5_monthly_wind_temp_2023_2025.nc    # ERA5 wind & temperature
+
 └── era5_monthly_precip_snow_2023_2025.nc  # ERA5 precipitation & snow
 
 ## 🛠️ Setup Instructions
