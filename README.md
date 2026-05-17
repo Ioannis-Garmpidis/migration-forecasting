@@ -4,21 +4,22 @@ A PySpark-based Big Data pipeline that predicts irregular migration flows to Eur
 📌 About
 This project integrates three heterogeneous data sources to build a complete forecasting system:
 
-Frontex — Monthly border detection statistics per migration route
+-Frontex — Monthly border detection statistics per migration route
 
-GDELT — Global geopolitical events as push factors (~49GB)
+-GDELT — Global geopolitical events as push factors (~49GB)
 
-ERA5 — Monthly meteorological data (temperature, wind, precipitation)
+-ERA5 — Monthly meteorological data (temperature, wind, precipitation)
 
-Four models are trained and evaluated per route using a rolling forecast methodology:
 
-Baseline (previous month value)
+->Four models are trained and evaluated per route using a rolling forecast methodology:
 
-SARIMAX (statistical time series with exogenous variables)
+-Baseline (previous month value)
 
-XGBoost (gradient boosting)
+-SARIMAX (statistical time series with exogenous variables)
 
-LightGBM (efficient gradient boosting)
+-XGBoost (gradient boosting)
+
+-LightGBM (efficient gradient boosting)
 
 
 🗂️ File Structure
