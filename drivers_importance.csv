@@ -1,0 +1,9 @@
+Route,Model,Feature,AbsCoefficient
+Eastern Mediterranean Route,LIGHTGBM,detections_roll3,65
+Eastern Mediterranean Route,LIGHTGBM,detections_lag2,98
+Eastern Mediterranean Route,LIGHTGBM,push_events_sum,127
+Eastern Mediterranean Route,LIGHTGBM,u10,155
+Eastern Mediterranean Route,LIGHTGBM,detections_lag3,155
+Eastern Mediterranean Route,LIGHTGBM,avg_sentiment_wavg,165
+Eastern Mediterranean Route,LIGHTGBM,detections_lag1,172
+Eastern Mediterranean Route,LIGHTGBM,t2m,214

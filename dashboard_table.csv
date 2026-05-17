@@ -1,0 +1,5 @@
+Route,Best_Model,MAE_best,RMSE_best,n_predictions,MAE_baseline,RMSE_baseline,MAE_improvement,MAE_improvement_%,RMSE_improvement,RMSE_improvement_%
+Central Mediterranean Route,BASELINE,1144.12,1604.31,8,1144.12,1604.31,0.0,0.0,0.0,0.0
+Eastern Mediterranean Route,LIGHTGBM,955.89,1161.27,8,1649.62,1829.05,693.74,42.05,667.79,36.51
+Western African Route,BASELINE,630.12,839.66,8,630.12,839.66,0.0,0.0,0.0,0.0
+Western Balkan Route,BASELINE,265.75,293.89,8,265.75,293.89,0.0,0.0,0.0,0.0
